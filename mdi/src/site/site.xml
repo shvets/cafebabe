@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="${outputEncoding}"?>
+
+<project name="${project.name}">
+  <bannerLeft>
+    <name>${project.name}</name>
+  </bannerLeft>
+
+  <body>
+    <links>
+      <item name="${project.name}" href="${project.url}"/>
+    </links>
+
+    <menu name="MDI Lib 1.1">
+      <item name="Downloads" href="http://sourceforge.net/projects/cafebabe"/>
+    </menu>
+
+    ${parentProject}
+
+    ${modules}
+
+    ${reports}
+
+  </body>
+</project>

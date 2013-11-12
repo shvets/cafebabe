@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project name="CafeBabeAntlet" default="start" basedir=".">
+
+  <property name="install.dir" value="."/>
+
+  <target name="install">
+    <mkdir dir="lib"/>
+    <mkdir dir="Help"/>
+
+    <unzip src="${install.dir}/cafebabe-main-1.4.jar" dest="${install.dir}">
+      <patternset>
+        <include name="lib/*.jar"/>
+      </patternset>
+    </unzip>
+
+    <unzip src="${install.dir}/cafebabe-main-1.4.jar" dest="${install.dir}">
+      <patternset>
+        <include name="Help/*.jar"/>
+      </patternset>
+    </unzip>
+  </target>
+
+  <target name="start">
+    <java classname="org.sf.cafebabe.Main" fork="no"/>
+  </target>
+
+</project>

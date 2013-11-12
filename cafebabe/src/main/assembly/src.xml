@@ -1,0 +1,92 @@
+<assembly>
+  <id>src</id>
+  <formats>
+    <format>zip</format>
+  </formats>
+
+  <includeBaseDirectory>false</includeBaseDirectory>
+
+  <fileSets>
+
+    <fileSet>
+      <directory>..</directory>
+      <outputDirectory></outputDirectory>
+
+      <includes>
+        <include>README*</include>
+        <include>LICENSE*</include>
+        <include>NOTICE*</include>
+
+        <include>*.xml</include>
+        <include>*.ipr</include>
+        <include>*.iws</include>
+      </includes>
+    </fileSet>
+
+    <fileSet>
+      <directory>../serfile</directory>
+      <outputDirectory>serfile</outputDirectory>
+    
+      <includes>
+        <include>README*</include>
+        <include>LICENSE*</include>
+        <include>NOTICE*</include>
+
+        <include>*.xml</include>
+        <include>*.iml</include>
+        <include>src/**</include>
+      </includes>
+    </fileSet>
+
+    <fileSet>
+      <directory>../mdi</directory>
+      <outputDirectory>mdi</outputDirectory>
+    
+      <includes>
+        <include>README*</include>
+        <include>LICENSE*</include>
+        <include>NOTICE*</include>
+
+        <include>*.xml</include>
+        <include>*.iml</include>
+        <include>src/**</include>
+      </includes>
+    </fileSet>
+
+    <fileSet>
+      <directory>../classfile</directory>
+      <outputDirectory>classfile</outputDirectory>
+    
+      <includes>
+        <include>README*</include>
+        <include>LICENSE*</include>
+        <include>NOTICE*</include>
+
+        <include>*.xml</include>
+        <include>*.iml</include>
+        <include>src/**</include>
+      </includes>
+    </fileSet>
+
+    <fileSet>
+      <outputDirectory>cafebabe</outputDirectory>
+  
+      <includes>
+        <include>README*</include>
+        <include>LICENSE*</include>
+        <include>NOTICE*</include>
+
+        <include>*.xml</include>
+        <include>*.iml</include>
+
+        <include>*.bat</include>
+        <include>*.sh</include>
+
+        <include>src/**</include>
+        <include>lib/*.jar</include>
+      </includes>
+    </fileSet>
+
+  </fileSets>
+</assembly>
+

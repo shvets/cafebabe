@@ -1,0 +1,63 @@
+<profiles>
+  <profile>
+    <id>default</id>
+
+    <repositories>
+      <repository>
+        <id>maven2</id>
+        <name>Default Maven2 repository</name>
+        <url>http://repo1.maven.org/maven2</url>
+      </repository>
+
+      <repository>
+        <id>scriptlandia-maven2</id>
+        <name>repo1</name>
+        <url>http://scriptlandia.sourceforge.net/maven2</url>
+      </repository>
+
+      <repository>
+        <id>Maven Snapshots</id>
+        <url>http://snapshots.maven.codehaus.org/maven2/</url>
+
+         <snapshots>
+           <enabled>true</enabled>
+         </snapshots>
+
+         <releases>
+           <enabled>false</enabled>
+         </releases>
+       </repository>
+    </repositories>
+
+    <pluginRepositories>
+      <pluginRepository>
+        <id>Maven Snapshots</id>
+        <url>http://snapshots.maven.codehaus.org/maven2/</url>
+
+        <snapshots>
+          <enabled>true</enabled>
+        </snapshots>
+
+        <releases>
+          <enabled>false</enabled>
+        </releases>
+      </pluginRepository>
+<!--
+      <pluginRepository>
+        <id>cargo</id>
+        <url>http://cargo.codehaus.org/dist2-snapshot</url>
+        <releases>
+          <enabled>true</enabled>
+        </releases>
+      </pluginRepository>
+
+      <pluginRepository>
+        <id>mortbay-repo</id>
+        <name>mortbay-repo</name>
+        <url>http://www.mortbay.org/maven2/snapshot</url>
+      </pluginRepository>
+-->
+    </pluginRepositories>
+  </profile>
+</profiles>
+

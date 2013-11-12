@@ -1,0 +1,9 @@
+#
+# This is a 'mailcap' file for extending CafeBabe framework
+#
+application/class-file;;                x-java-view=org.sf.cafebabe.task.classfile.ClassFrame
+application/serialized-file;;           x-java-view=org.sf.cafebabe.task.serfile.SerFrame
+application/octet-stream;;              x-java-view=org.sf.cafebabe.activation.TextViewer
+text/*;;                x-java-view=org.sf.cafebabe.activation.TextViewer
+image/gif;;             x-java-view=org.sf.cafebabe.activation.ImageViewer
+image/jpeg;;            x-java-view=org.sf.cafebabe.activation.ImageViewer

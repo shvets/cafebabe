@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="${outputEncoding}"?>
+
+<project name="${project.name}">
+<!--
+  <head>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"/>
+  </head>
+-->
+
+  <bannerLeft>
+    <name>${project.name}</name>
+  </bannerLeft>
+
+  <body>
+    <links>
+      <item name="${project.name}" href="${project.url}"/>
+    </links>
+
+    <menu name="CafeBabe 1.4">
+      <item name="Downloads" href="http://sourceforge.net/projects/cafebabe"/>
+    </menu>
+
+    <menu name="SubProjects">
+      <item name="SerFile" href="serfile/index.html"/>
+      <item name="MDI Library" href="mdi/index.html"/>
+      <item name="ClassFile" href="classfile/index.html"/>
+    </menu>
+
+    ${parentProject}
+
+    ${modules}
+
+    ${reports}
+
+  </body>
+</project>
